@@ -1,0 +1,5 @@
+log/
+build/
+install/
+memory.db
+api_key.txt
