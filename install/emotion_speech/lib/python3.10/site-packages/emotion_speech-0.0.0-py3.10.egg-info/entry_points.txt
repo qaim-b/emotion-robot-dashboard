@@ -1,0 +1,12 @@
+[console_scripts]
+face_ctrl3_cv = emotion_speech.face_ctrl3_cv:main
+face_display_node = emotion_speech.face_display_node:main
+gemini_node = emotion_speech.gemini_node:main
+memory_node = emotion_speech.memory_node:main
+plot_pnnx = emotion_speech.plot_pnnx:main
+pnnx2 = emotion_speech.pnnx2:main
+pnnx2_dummy = emotion_speech.pnnx2_dummy:main
+pnnx_to_emotion_node = emotion_speech.pnnx_to_emotion_node:main
+speech_to_text_node = emotion_speech.speech_to_text_node:main
+test_publisher = emotion_speech.test_emotion_publisher:main
+

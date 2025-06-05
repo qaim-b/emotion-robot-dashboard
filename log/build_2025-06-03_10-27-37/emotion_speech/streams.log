@@ -1,0 +1,30 @@
+[1.186s] Invoking command in '/home/qaim/ros2_ws/src/emotion_speech': PYTHONPATH=/home/qaim/ros2_ws/build/emotion_speech/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emotion_speech build --build-base /home/qaim/ros2_ws/build/emotion_speech/build install --record /home/qaim/ros2_ws/build/emotion_speech/install.log --single-version-externally-managed install_data
+[1.640s] running egg_info
+[1.641s] writing ../../build/emotion_speech/emotion_speech.egg-info/PKG-INFO
+[1.642s] writing dependency_links to ../../build/emotion_speech/emotion_speech.egg-info/dependency_links.txt
+[1.643s] writing entry points to ../../build/emotion_speech/emotion_speech.egg-info/entry_points.txt
+[1.643s] writing requirements to ../../build/emotion_speech/emotion_speech.egg-info/requires.txt
+[1.643s] writing top-level names to ../../build/emotion_speech/emotion_speech.egg-info/top_level.txt
+[1.647s] reading manifest file '../../build/emotion_speech/emotion_speech.egg-info/SOURCES.txt'
+[1.648s] writing manifest file '../../build/emotion_speech/emotion_speech.egg-info/SOURCES.txt'
+[1.650s] running build
+[1.650s] running build_py
+[1.650s] running install
+[1.652s] running install_lib
+[1.652s] running install_data
+[1.653s] running install_egg_info
+[1.657s] removing '/home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech-0.0.0-py3.10.egg-info' (and everything under it)
+[1.659s] Copying ../../build/emotion_speech/emotion_speech.egg-info to /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech-0.0.0-py3.10.egg-info
+[1.660s] running install_scripts
+[1.697s] Installing face_ctrl3_cv script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+[1.699s] Installing face_display_node script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+[1.701s] Installing gemini_node script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+[1.701s] Installing memory_node script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+[1.701s] Installing plot_pnnx script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+[1.701s] Installing pnnx2 script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+[1.701s] Installing pnnx2_dummy script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+[1.701s] Installing pnnx_to_emotion_node script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+[1.701s] Installing speech_to_text_node script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+[1.702s] Installing test_publisher script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+[1.707s] writing list of installed files to '/home/qaim/ros2_ws/build/emotion_speech/install.log'
+[1.826s] Invoked command in '/home/qaim/ros2_ws/src/emotion_speech' returned '0': PYTHONPATH=/home/qaim/ros2_ws/build/emotion_speech/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/emotion_speech build --build-base /home/qaim/ros2_ws/build/emotion_speech/build install --record /home/qaim/ros2_ws/build/emotion_speech/install.log --single-version-externally-managed install_data

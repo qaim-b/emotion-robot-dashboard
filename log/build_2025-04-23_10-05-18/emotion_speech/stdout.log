@@ -1,0 +1,94 @@
+running egg_info
+creating ../../build/emotion_speech/emotion_speech.egg-info
+writing ../../build/emotion_speech/emotion_speech.egg-info/PKG-INFO
+writing dependency_links to ../../build/emotion_speech/emotion_speech.egg-info/dependency_links.txt
+writing entry points to ../../build/emotion_speech/emotion_speech.egg-info/entry_points.txt
+writing requirements to ../../build/emotion_speech/emotion_speech.egg-info/requires.txt
+writing top-level names to ../../build/emotion_speech/emotion_speech.egg-info/top_level.txt
+writing manifest file '../../build/emotion_speech/emotion_speech.egg-info/SOURCES.txt'
+reading manifest file '../../build/emotion_speech/emotion_speech.egg-info/SOURCES.txt'
+writing manifest file '../../build/emotion_speech/emotion_speech.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/qaim/ros2_ws/build/emotion_speech/build
+creating /home/qaim/ros2_ws/build/emotion_speech/build/lib
+creating /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech
+copying emotion_speech/pnnx2.py -> /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech
+copying emotion_speech/gemini_node.py -> /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech
+copying emotion_speech/__init__.py -> /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech
+copying emotion_speech/speech_to_text_node.py -> /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech
+copying emotion_speech/plot_pnnx.py -> /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech
+copying emotion_speech/face_ctrl3_cv.py -> /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech
+copying emotion_speech/pnnx_to_emotion_node.py -> /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech
+copying emotion_speech/test_emotion_publisher.py -> /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech
+copying emotion_speech/list_models.py -> /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech
+copying emotion_speech/pnnx2_dummy.py -> /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech
+copying emotion_speech/face_display_node.py -> /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech
+running install
+running install_lib
+creating /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech
+copying /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech/pnnx2.py -> /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech
+copying /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech/gemini_node.py -> /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech
+copying /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech/__init__.py -> /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech
+copying /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech/speech_to_text_node.py -> /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech
+copying /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech/plot_pnnx.py -> /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech
+copying /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech/face_ctrl3_cv.py -> /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech
+copying /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech/pnnx_to_emotion_node.py -> /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech
+copying /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech/test_emotion_publisher.py -> /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech
+copying /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech/list_models.py -> /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech
+copying /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech/pnnx2_dummy.py -> /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech
+copying /home/qaim/ros2_ws/build/emotion_speech/build/lib/emotion_speech/face_display_node.py -> /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech
+byte-compiling /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech/pnnx2.py to pnnx2.cpython-310.pyc
+byte-compiling /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech/gemini_node.py to gemini_node.cpython-310.pyc
+byte-compiling /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech/speech_to_text_node.py to speech_to_text_node.cpython-310.pyc
+byte-compiling /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech/plot_pnnx.py to plot_pnnx.cpython-310.pyc
+byte-compiling /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech/face_ctrl3_cv.py to face_ctrl3_cv.cpython-310.pyc
+byte-compiling /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech/pnnx_to_emotion_node.py to pnnx_to_emotion_node.cpython-310.pyc
+byte-compiling /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech/test_emotion_publisher.py to test_emotion_publisher.cpython-310.pyc
+byte-compiling /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech/list_models.py to list_models.cpython-310.pyc
+byte-compiling /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech/pnnx2_dummy.py to pnnx2_dummy.cpython-310.pyc
+byte-compiling /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech/face_display_node.py to face_display_node.cpython-310.pyc
+running install_data
+creating /home/qaim/ros2_ws/install/emotion_speech/share/ament_index
+creating /home/qaim/ros2_ws/install/emotion_speech/share/ament_index/resource_index
+creating /home/qaim/ros2_ws/install/emotion_speech/share/ament_index/resource_index/packages
+copying resource/emotion_speech -> /home/qaim/ros2_ws/install/emotion_speech/share/ament_index/resource_index/packages
+copying package.xml -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech
+creating /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/launch
+copying launch/all.launch.py -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/launch
+creating /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/neutral.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/happy1.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/happy2.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/happy3.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/happy4.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/happy5.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/anger1.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/anger2.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/anger3.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/anger4.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/anger5.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/relax1.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/relax2.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/relax3.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/relax4.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/relax5.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/sadness1.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/sadness2.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/sadness3.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/sadness4.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+copying face_DB/sadness5.JPG -> /home/qaim/ros2_ws/install/emotion_speech/share/emotion_speech/face_DB
+running install_egg_info
+Copying ../../build/emotion_speech/emotion_speech.egg-info to /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech-0.0.0-py3.10.egg-info
+running install_scripts
+Installing face_ctrl3_cv script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+Installing face_display_node script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+Installing gemini_node script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+Installing plot_pnnx script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+Installing pnnx2 script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+Installing pnnx2_dummy script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+Installing pnnx_to_emotion_node script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+Installing speech_to_text_node script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+Installing test_publisher script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech
+writing list of installed files to '/home/qaim/ros2_ws/build/emotion_speech/install.log'

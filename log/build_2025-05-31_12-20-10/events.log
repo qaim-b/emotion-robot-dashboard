@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.010038] (emotion_speech) JobQueued: {'identifier': 'emotion_speech', 'dependencies': OrderedDict()}
+[0.010246] (emotion_speech) JobStarted: {'identifier': 'emotion_speech'}
+[0.102318] (-) TimerEvent: {}
+[0.224571] (-) TimerEvent: {}
+[0.334863] (-) TimerEvent: {}
+[0.445055] (-) TimerEvent: {}
+[0.547100] (-) TimerEvent: {}
+[0.652897] (-) TimerEvent: {}
+[0.760173] (-) TimerEvent: {}
+[0.863907] (-) TimerEvent: {}
+[0.971280] (-) TimerEvent: {}
+[1.081873] (-) TimerEvent: {}
+[1.182914] (-) TimerEvent: {}
+[1.286106] (-) TimerEvent: {}
+[1.392486] (-) TimerEvent: {}
+[1.496855] (-) TimerEvent: {}
+[1.600405] (-) TimerEvent: {}
+[1.706506] (-) TimerEvent: {}
+[1.807805] (-) TimerEvent: {}
+[1.912875] (-) TimerEvent: {}
+[2.016878] (-) TimerEvent: {}
+[2.119811] (-) TimerEvent: {}
+[2.222867] (-) TimerEvent: {}
+[2.326748] (-) TimerEvent: {}
+[2.431731] (-) TimerEvent: {}
+[2.535947] (-) TimerEvent: {}
+[2.639762] (-) TimerEvent: {}
+[2.742096] (-) TimerEvent: {}
+[2.850698] (-) TimerEvent: {}
+[2.953168] (-) TimerEvent: {}
+[3.055902] (-) TimerEvent: {}
+[3.158148] (-) TimerEvent: {}
+[3.259827] (-) TimerEvent: {}
+[3.363465] (-) TimerEvent: {}
+[3.464795] (-) TimerEvent: {}
+[3.569811] (-) TimerEvent: {}
+[3.673810] (-) TimerEvent: {}
+[3.777795] (-) TimerEvent: {}
+[3.880797] (-) TimerEvent: {}
+[3.986871] (-) TimerEvent: {}
+[4.092033] (-) TimerEvent: {}
+[4.194349] (-) TimerEvent: {}
+[4.297954] (-) TimerEvent: {}
+[4.400849] (-) TimerEvent: {}
+[4.502862] (-) TimerEvent: {}
+[4.603799] (-) TimerEvent: {}
+[4.708028] (-) TimerEvent: {}
+[4.810224] (-) TimerEvent: {}
+[4.895115] (emotion_speech) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/emotion_speech', 'build', '--build-base', '/home/qaim/ros2_ws/build/emotion_speech/build', 'install', '--record', '/home/qaim/ros2_ws/build/emotion_speech/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/qaim/ros2_ws/src/emotion_speech', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'qaim', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/qaim', 'OLDPWD': '/home/qaim/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '6902', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/qaim/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'qaim', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'qaim', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/qaim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/qaim-virtual-machine:@/tmp/.ICE-unix/1615,unix/qaim-virtual-machine:/tmp/.ICE-unix/1615', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a097c293_ac67_42fc_97c5_22df40ac188f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CUTU62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/qaim/ros2_ws/install/emotion_speech:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/qaim/ros2_ws/build/emotion_speech', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GEMINI_API_KEY': 'AIzaSyDj0T7PrX9w3nov_zUYWJX_G4pWNl-BW-Y', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/qaim/ros2_ws/build/emotion_speech/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages:/home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.913548] (-) TimerEvent: {}
+[5.017284] (-) TimerEvent: {}
+[5.118400] (-) TimerEvent: {}
+[5.222318] (-) TimerEvent: {}
+[5.329394] (-) TimerEvent: {}
+[5.434306] (-) TimerEvent: {}
+[5.537337] (-) TimerEvent: {}
+[5.640392] (-) TimerEvent: {}
+[5.741905] (-) TimerEvent: {}
+[5.842979] (-) TimerEvent: {}
+[5.931986] (emotion_speech) StdoutLine: {'line': b'running egg_info\n'}
+[5.935843] (emotion_speech) StdoutLine: {'line': b'writing ../../build/emotion_speech/emotion_speech.egg-info/PKG-INFO\n'}
+[5.936257] (emotion_speech) StdoutLine: {'line': b'writing dependency_links to ../../build/emotion_speech/emotion_speech.egg-info/dependency_links.txt\n'}
+[5.938037] (emotion_speech) StdoutLine: {'line': b'writing entry points to ../../build/emotion_speech/emotion_speech.egg-info/entry_points.txt\n'}
+[5.938283] (emotion_speech) StdoutLine: {'line': b'writing requirements to ../../build/emotion_speech/emotion_speech.egg-info/requires.txt\n'}
+[5.938506] (emotion_speech) StdoutLine: {'line': b'writing top-level names to ../../build/emotion_speech/emotion_speech.egg-info/top_level.txt\n'}
+[5.943835] (-) TimerEvent: {}
+[5.946692] (emotion_speech) StdoutLine: {'line': b"reading manifest file '../../build/emotion_speech/emotion_speech.egg-info/SOURCES.txt'\n"}
+[5.951021] (emotion_speech) StdoutLine: {'line': b"writing manifest file '../../build/emotion_speech/emotion_speech.egg-info/SOURCES.txt'\n"}
+[5.952749] (emotion_speech) StdoutLine: {'line': b'running build\n'}
+[5.954304] (emotion_speech) StdoutLine: {'line': b'running build_py\n'}
+[5.958753] (emotion_speech) StdoutLine: {'line': b'running install\n'}
+[5.960353] (emotion_speech) StdoutLine: {'line': b'running install_lib\n'}
+[5.968692] (emotion_speech) StdoutLine: {'line': b'running install_data\n'}
+[5.975741] (emotion_speech) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.985721] (emotion_speech) StdoutLine: {'line': b"removing '/home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.987452] (emotion_speech) StdoutLine: {'line': b'Copying ../../build/emotion_speech/emotion_speech.egg-info to /home/qaim/ros2_ws/install/emotion_speech/lib/python3.10/site-packages/emotion_speech-0.0.0-py3.10.egg-info\n'}
+[5.993748] (emotion_speech) StdoutLine: {'line': b'running install_scripts\n'}
+[6.044153] (-) TimerEvent: {}
+[6.048156] (emotion_speech) StdoutLine: {'line': b'Installing face_ctrl3_cv script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech\n'}
+[6.049297] (emotion_speech) StdoutLine: {'line': b'Installing face_display_node script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech\n'}
+[6.053293] (emotion_speech) StdoutLine: {'line': b'Installing gemini_node script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech\n'}
+[6.053529] (emotion_speech) StdoutLine: {'line': b'Installing plot_pnnx script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech\n'}
+[6.053951] (emotion_speech) StdoutLine: {'line': b'Installing pnnx2 script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech\n'}
+[6.054166] (emotion_speech) StdoutLine: {'line': b'Installing pnnx2_dummy script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech\n'}
+[6.054507] (emotion_speech) StdoutLine: {'line': b'Installing pnnx_to_emotion_node script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech\n'}
+[6.055488] (emotion_speech) StdoutLine: {'line': b'Installing speech_to_text_node script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech\n'}
+[6.055919] (emotion_speech) StdoutLine: {'line': b'Installing test_publisher script to /home/qaim/ros2_ws/install/emotion_speech/lib/emotion_speech\n'}
+[6.056967] (emotion_speech) StdoutLine: {'line': b"writing list of installed files to '/home/qaim/ros2_ws/build/emotion_speech/install.log'\n"}
+[6.090287] (emotion_speech) CommandEnded: {'returncode': 0}
+[6.123135] (emotion_speech) JobEnded: {'identifier': 'emotion_speech', 'rc': 0}
+[6.126226] (-) EventReactorShutdown: {}
