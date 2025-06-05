@@ -1,8 +1,21 @@
 import os
+from pathlib import Path
 import requests
 
-api_key = os.getenv("GEMINI_API_KEY")
-url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
+
+def load_api_key() -> str:
+    """Load API key from ``api_key.txt`` if available or fallback to environment."""
+    key_file = Path(__file__).with_name("api_key.txt")
+    if key_file.exists():
+        return key_file.read_text().strip()
+    return os.getenv("GEMINI_API_KEY", "")
+
+
+api_key = load_api_key()
+url = (
+    "https://generativelanguage.googleapis.com/v1beta/models/"
+    f"gemini-2.0-flash:generateContent?key={api_key}"
+)
 
 headers = {
     "Content-Type": "application/json"
